@@ -44,8 +44,8 @@ public class Asignatura : Alumno, IAsignatura
         Console.WriteLine($"Asignatura: {NombreAsignatura}");
         Console.WriteLine($"Horario: {Horario}");
         Console.WriteLine($"Docente: {NombreDocente}");
-        Console.WriteLine($"Nota Final (sin parámetros): {notaFinal1}% - {MensajeNotaFinal(notaFinal1)}");
-        Console.WriteLine($"Nota Final (con parámetros): {notaFinal2}% -  {MensajeNotaFinal(notaFinal2)}");
+        Console.WriteLine($"Nota Final : {notaFinal1}% - {MensajeNotaFinal(notaFinal1)}");
+        Console.WriteLine($"Nota Final : {notaFinal2}% -  {MensajeNotaFinal(notaFinal2)}");
         Console.WriteLine("***********************************************");
     }
 }

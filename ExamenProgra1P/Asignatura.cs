@@ -21,4 +21,17 @@ public class Asignatura : Alumno, IAsignatura
         return n1 + n2 + n3;
     }
 
+    public string MensajeNotaFinal(double notaFinal)
+    {
+        if (notaFinal < 60)
+            return "Reprobado";
+        else if (notaFinal < 80)
+            return "Bueno";
+        else if (notaFinal < 90)
+            return "Muy Bueno";
+        else
+             return "Sobresaliente";
+    }
+
+    public 
 }
